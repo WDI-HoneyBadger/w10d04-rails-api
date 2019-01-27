@@ -23,6 +23,7 @@ If you are creating full RESTful routes, you can use the shortcut: `resources :r
 resources :pets
 ```
 will create the following routes:
+
 | Prefix | Verb | URI Pattern | Controller#Action |
 ---------|------|-------------|-------------------|
 |pets|GET|/pets(.:format)|pets#index|
